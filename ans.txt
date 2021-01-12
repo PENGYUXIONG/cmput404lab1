@@ -1,0 +1,25 @@
+Question 1: What is your GitHub URL?
+
+A: https://github.com/PENGYUXIONG
+
+Question 2: What version is the requests library installed on the system?
+
+A: the version of requests lib is 2.25.1
+
+Question 3: What version is the requests library installed in the virtualenv?
+
+A: the version is 20.3.3 
+
+Question 4: What is the difference between the virtual environment and the not virtual environment python?
+
+A: I have same version of python on both environment because I placed alias python="python3" in shell. 
+
+# https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe
+However, according to stackoverflow, it seem that the venv shipped with python3. So I assume, if my local env has python2, the version of python will differ.
+On top of that, I found the python location inside the virtual env is relocated. 
+
+What likely happened, is that the venv folder is the storage of the virtual env, by which it also has the copied directories setting.
+
+Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
+
+A: 
