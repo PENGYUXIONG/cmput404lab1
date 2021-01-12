@@ -22,4 +22,20 @@ What likely happened, is that the venv folder is the storage of the virtual env,
 
 Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
 
-A: 
+A: status code 301. www.google.com
+
+Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
+
+A: 301. They both returned status code 301 using http://google.com/teapot.
+
+when changed URL to www.google.com/teapot, curl -il returns status code 418 with the header, and same with curl -i.
+
+Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+
+A: It use post request to give form content new field 'X' 'Y'. -X specify the proxy
+
+After the post request, the description list adds in field 'x', 'y'. With description term <DD> MiniFieldStorage('X', 'Y').
+
+Question 8: What is the raw URL to your Python script on GitHub?
+
+A: The URL is https://raw.githubusercontent.com/PENGYUXIONG/cmput404lab1/master/printVersion.py
